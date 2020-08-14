@@ -7,5 +7,5 @@ https://flask.palletsprojects.com/en/1.1.x/
 http://127.0.0.1:5000/
 
 啟動：<br />
-set FLASK_APP=main.py
+set FLASK_APP=main.py<br />
 py -m flask run
