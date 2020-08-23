@@ -15,7 +15,7 @@ def login():
 
 @app.route("/<usr>")
 def user(usr):
-    return f'<h1>{usr}</h1><br /><a href="http://127.0.0.1:5000">Home</a>'
+    return f"<h1>{usr}</h1>"
 
 if __name__ == "__main__":
     app.run(debug=True)
