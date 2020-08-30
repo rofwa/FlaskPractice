@@ -13,6 +13,10 @@ def login():
     else:
         return render_template("login.html")
 
+@app.route("/forum")
+def forum():
+    return render_template("forum.html")
+
 @app.route("/<usr>")
 def user(usr):
     return f'<h1>{usr}</h1><br /><a href="http://127.0.0.1:5000">Home</a>'
